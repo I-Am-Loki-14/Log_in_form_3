@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;height: 100vh;
+    background: url(./beautiful-shot-waterfall-forest.jpg) no-repeat ;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   padding: 50px;
+ 
+}
+form{
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    /* border: 1px solid salmon; */
+    background-position: 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+
+}
+form h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(198, 187, 187);
+    margin: 20px 0 ;
+}
+form h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+span{
+    color: blue;
+    font-size: 3rem;
+    
+}
+form p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 25px 0;
+    
+}
+ form p,a{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+  a{
+   font-family: Arial, Helvetica, sans-serif;
+   color: blue;
+   font-size: 1.2rem;
+   font-weight: bold;
+ }
+.first_last_name{
+/* background-color: aqua; */
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+ .first_name,.last_name{
+    width:200px;
+    display: inline-block;
+ }
+ .mail,.pass{
+  /* background: orchid; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+ }
+ form div{
+    margin: 20px 0;
+   
+ }
+ input{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    border: none;
+    /* outline: none; */
+    outline-color: #4a4aed;
+    
+ }
+ input[type="submit"]{
+    width: 320px;
+     padding: 15px 0px;
+    border-radius: 10px;
+   
+ }
+ input::placeholder{
+    color: gray;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .log-in_btn{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 23px;
+    
+ }
+ .btn_1{
+    background-color: gray;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+ }
+ .btn_2 {
+     background-color: #4a4aed;
+     border: none;
+     color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ .btn_2:hover{
+    background-color: #0000f1bf;
+    transition:0.3s;
+ }
